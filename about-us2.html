@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FREM Sobre nosotros</title>
+    <link rel="shortcut icon" href="img/logofrem1.jpeg">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="css/lightcase.css">
+    <!-- CUSTOM STYLE -->      
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,400,600,900&subset=latin-ext" rel="stylesheet"> 
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>      
+  </head>
+
+  <body class="size-1140">
+      <!-- HEADER -->
+      <header role="banner" class="position-absolute margin-top-30 margin-m-top-0 margin-s-top-0">    
+        <!-- Top Navigation -->
+        <nav class="background-transparent background-transparent-hightlight full-width sticky">
+          <div class="s-12 l-2">
+            <a href="index.html" class="logo">
+              <!-- Logo version before sticky nav -->
+              <img class="logo-before" src="img/logofrem1.jpeg" alt="">
+              <!-- Logo version after sticky nav -->
+              <img class="logo-after" src="img/logofrem1.jpeg" alt="">
+            </a>
+          </div>
+          <div class="s-12 l-10">
+            <div class="top-nav right">
+              <p class="nav-text"></p>
+              <ul class="right chevron">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">Sobre nosotros</a></li>
+                 <li><a href="about-us2.html">Productos</a></li>             
+                <li><a href="contact.html">Contacto</a></li>
+              </ul>
+            </div>
+          </div>  
+        </nav>
+      </header>
+      
+      <!-- MAIN -->
+      <main role="main">
+        <!-- Content -->
+        <article>
+
+              <header class="section-top-padding background-white">
+            <div class="line text-center">        
+              <h1 class="text-dark text-s-size-30 text-m-size-40 text-l-size-headline text-thin text-line-height-1">GRANDES PRODUCTOS</h1><br><br>
+              <p class="margin-bottom-0 text-size-30 text-dark">ESMALTES </p><br><br>
+
+ 
+
+                        ESMALTES
+
+       <center> <a class="image-hover-zoom margin-bottom" ><img src="img/P8.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">Esmalte Vogue gel </p></center><br><br>
+
+     <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'paypal',
+          
+        },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"description":"Esmalte vogue gel","amount":{"currency_code":"MXN","value":216.5,"breakdown":{"item_total":{"currency_code":"MXN","value":130},"shipping":{"currency_code":"MXN","value":80},"tax_total":{"currency_code":"MXN","value":6.5}}}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(orderData) {
+            
+            // Full available details
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+            // Show a success message within this page, e.g.
+            const element = document.getElementById('paypal-button-container');
+            element.innerHTML = '';
+            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script> <br><br>
+
+<div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'paypal',
+          
+        },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"description":"Esmalte BISSÚ morado","amount":{"currency_code":"MXN","value":240,"breakdown":{"item_total":{"currency_code":"MXN","value":200},"shipping":{"currency_code":"MXN","value":30},"tax_total":{"currency_code":"MXN","value":10}}}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(orderData) {
+            
+            // Full available details
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+            // Show a success message within this page, e.g.
+            const element = document.getElementById('paypal-button-container');
+            element.innerHTML = '';
+            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script>
+
+       <center> <a class="image-hover-zoom margin-bottom" ><img src="img/esmalte2.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">Esmalte BISSÚ morado $200 MXN</p></center><br><br>
+
+ <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="LMDMTUKL9C2AG">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="V82S58K423TSA">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+       <center> <a class="image-hover-zoom margin-bottom" ><img src="img/esmalte3.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">Esmalte RENOVA Rojo $169 MXN</p></center><br><br>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="5MLS5LRNS6BWL">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="PEUKKC96EQJBG">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+<p class="margin-bottom-0 text-size-30 text-dark">BASES PARA MAQUILLAJE </p><br><br>
+
+       <center> <a class="image-hover-zoom margin-bottom" ><img src="img/base1.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">FILTER EFFECT BASE DE ENFOQUE SUAVE (BASE DE MAQUILLAJE)$590 MXN</p></center><br><br>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="KZK5FGMDEAZMJ">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="KDSKV49JG25VJ">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+       <center> <a class="image-hover-zoom margin-bottom" ><img src="img/base2.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">Base de Maquillaje Truly Matte – Renatta Cosmetics $299 MXN</p></center><br><br>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="QJUR2DYTF6T22">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="JSYLZ79Y8PDLU">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+       <center> <a class="image-hover-zoom margin-bottom" ><img src="img/base3.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">BASE DE MAQUILLAJE LIQUIDA HD PRO SLAY MATTE LIQUID FOUNDATION ITALIA DELUXE $115 MXN</p></center><br><br>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="UHJC9A8GW47GG">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="89E3UHZX6F5XW">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+<p class="margin-bottom-0 text-size-30 text-dark">SOMBRAS DE OJOS </p><br><br>
+       <center> <a class="image-hover-zoom margin-bottom" ><img src="img/sombras1.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">SOMBRAS DE OJOS tonos claros MALSIV $378 MXN</p></center><br><br>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="K9XZS2W539C2C">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="BCV3NL3BWG3A2">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+       <center> <a class="image-hover-zoom margin-bottom" ><img src="img/sombras2.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">SOMBRAS DE OJOS tonos claros MALSIV $378 MXN</p></center><br><br>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="K9XZS2W539C2C">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="BCV3NL3BWG3A2">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+
+       <center> <a class="image-hover-zoom margin-bottom" ><img src="img/sombras3.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">SOMBRAS DE OJOS tonos claros MALSIV $378 MXN</p></center><br><br>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="K9XZS2W539C2C">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="BCV3NL3BWG3A2">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+<p class="margin-bottom-0 text-size-30 text-dark">LABIALES</p><br><br>
+       <center> <a class="image-hover-zoom margin-bottom" ><img src="img/labial1.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">LABIAL BISSÚ MATE $79 MXN</p></center><br><br>
+   
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="xt62161@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="LABIAL BISSÚ MATE">
+<input type="hidden" name="item_number" value="008">
+<input type="hidden" name="amount" value="79.00">
+<input type="hidden" name="currency_code" value="MXN">
+<input type="hidden" name="button_subtype" value="services">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="tax_rate" value="5.000">
+<input type="hidden" name="shipping" value="50.00">
+<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="xt62161@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="LABIAL BISSÚ MATE">
+<input type="hidden" name="item_number" value="008">
+<input type="hidden" name="amount" value="79.00">
+<input type="hidden" name="currency_code" value="MXN">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="tax_rate" value="5.000">
+<input type="hidden" name="shipping" value="50.00">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+
+      <center> <a class="image-hover-zoom margin-bottom" ><img src="img/labial2.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">Labial líquido Maybelline Super Stay matte ink 015 lover 5 ml $200 MXN </p></center><br><br>
+
+
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="xt62161@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Labial líquido Maybelline Super Stay matte ink 015 lover 5 ml">
+<input type="hidden" name="item_number" value="008">
+<input type="hidden" name="amount" value="119.00">
+<input type="hidden" name="currency_code" value="MXN">
+<input type="hidden" name="button_subtype" value="services">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="tax_rate" value="5.000">
+<input type="hidden" name="shipping" value="50.00">
+<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="xt62161@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Labial líquido Maybelline Super Stay matte ink 015 lover 5 ml">
+<input type="hidden" name="item_number" value="008">
+<input type="hidden" name="amount" value="119.00">
+<input type="hidden" name="currency_code" value="MXN">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="tax_rate" value="5.000">
+<input type="hidden" name="shipping" value="50.00">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+
+      <center> <a class="image-hover-zoom margin-bottom" ><img src="img/labial3.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">LABIAL SILKY MATTE </p></center><br><br>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="xt62161@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="LABIAL SILKY MATTE">
+<input type="hidden" name="item_number" value="010">
+<input type="hidden" name="amount" value="59.99">
+<input type="hidden" name="currency_code" value="MXN">
+<input type="hidden" name="button_subtype" value="services">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="tax_rate" value="5.000">
+<input type="hidden" name="shipping" value="50.00">
+<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="xt62161@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="LABIAL SILKY MATTE">
+<input type="hidden" name="item_number" value="010">
+<input type="hidden" name="amount" value="59.99">
+<input type="hidden" name="currency_code" value="MXN">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="tax_rate" value="5.000">
+<input type="hidden" name="shipping" value="50.00">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+
+
+
+
+
+<p class="margin-bottom-0 text-size-30 text-dark">KITS DE MAQUILLAJE</p><br><br>
+
+      <center> <a class="image-hover-zoom margin-bottom" ><img src="img/kit1.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">Kit de maquillaje todo en uno, kit completo de maquillaje para mujer, kit de maquillaje multiusos, 
+     paleta de sombras de ojos, juego de brillo labial, bolsa de maquillaje, lápiz de cejas, máscara y maquillaje facial</p></center><br><br>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="xt62161@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="kit 1">
+<input type="hidden" name="item_number" value="011">
+<input type="hidden" name="amount" value="799.00">
+<input type="hidden" name="currency_code" value="MXN">
+<input type="hidden" name="button_subtype" value="services">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="tax_rate" value="5.000">
+<input type="hidden" name="shipping" value="50.00">
+<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="xt62161@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="kit 1">
+<input type="hidden" name="item_number" value="011">
+<input type="hidden" name="amount" value="799.00">
+<input type="hidden" name="currency_code" value="MXN">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="tax_rate" value="5.000">
+<input type="hidden" name="shipping" value="50.00">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+
+<center> <a class="image-hover-zoom margin-bottom" ><img src="img/kit2.jpg" alt=""></a></center> 
+       <center><p class="margin-bottom-0 text-size-16 text-dark">Kit Maquillaje Todo En Uno Original Especial Marca Popfeel </p></center><br><br>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VM5CDQND6GMXJ">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="NQSC9WQUCZLME">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+
+
+
+
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="xt62161@gmail.com">
+<input type="hidden" name="display" value="1">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>  
+          </header>
+              <header class="section-top-padding background-white">
+            <div class="line text-center">        
+              <h1 class="text-dark text-s-size-30 text-m-size-40 text-l-size-headline text-thin text-line-height-1"></h1>
+              <p class="margin-bottom-0 text-size-16 text-dark">¡Consolidarnos como una empresa reconocida! <br> 
+              Ser lideres de distribucion de productos cosmeticos profesionales asi como ser reconocida por la calidad y precios que se manejan .</p>
+            </div>  
+          </header>
+          <header class="section-top-padding background-white">
+            <div class="line text-center">        
+              <h1 class="text-dark text-s-size-30 text-m-size-40 text-l-size-headline text-thin text-line-height-1"></h1>
+              <p class="margin-bottom-0 text-size-16 text-dark"></p>
+            </div>  
+          </header>
+          <section class="section-top-padding background-white"> 
+            <div class="line">
+              <div class="margin">
+                <div class="s-12 m-12 l-4 margin-m-bottom">
+                  <a class="image-hover-zoom margin-bottom" ><img src="img/descuento.jpg" alt=""></a>
+                  <h2>APROVECHA - GRANDES PRODUCTOS</h2>
+                  <p class="margin-bottom"></p>                
+                </div>
+                <div class="s-12 m-12 l-4 margin-m-bottom">
+                  <a class="image-hover-zoom margin-bottom" ><img src="""></a>
+                  <h2></h2>
+                  <p class="margin-bottom"></p>                 
+                </div>
+                <div class="s-12 m-12 l-4 margin-m-bottom">
+                  <a class="image-hover-zoom margin-bottom" ><img src="img/descuento2.jpg" alt=""></a>
+                  <h2>Simplemente lo mejor para ti</h2>
+                  <p class="margin-bottom"></p>                 
+                </div>
+              </div>
+            </div>
+          </section>
+                                       
+              </div>                                                                                                                                                                                                                                                                                         
+            </div> 
+          </section>
+          <section class="section background-white"> 
+            <div class="line">      
+              <h2 class="text-s-size-40 text-size-50 text-line-height-1 margin-bottom-10 text-thin text-center"><span class="text-dark">-YESARI</span><span class="text-dark">-</span></h2> 
+              <p class="margin-bottom-50 text-center">
+              <br>
+              
+
+              </p>                                                                                               
+                                                                                                                                                                             
+              </div>
+            </div>
+          </section>
+        </article>
+      </main>
+      
+      <!-- FOOTER -->
+      <footer>
+        <!-- Contact Us -->
+        <div class="background-dark padding text-center footer-social">
+          <a class="margin-right-10" target="_blank" href="https://www.facebook.com/profile.php?id=100083253476783/Frem-Publicidad-103326115323931"><i class="icon-facebook_circle text-size-30"></i> <span class="text-strong text-white hide-s hide-m">FACEBOOK</span></a>
+          <a class="margin-right-10" target="_blank" href="https://www.twitter.com"><i class="icon-twitter_circle text-size-30"></i> <span class="text-strong text-white hide-s hide-m">TWITTER</span></a>
+          <a class="margin-right-10" target="_blank" href="https://www.instagram.com/yesarimaqui/"><i class="icon-instagram_circle text-size-30"></i> <span class="text-strong text-white hide-s hide-m">INSTAGRAM</span></a>
+          </div>
+
+        <!-- Main Footer -->
+        <section class="section-small-padding text-center background-dark full-width">
+          <div class="line">
+            <div class="margin">
+              <!-- Collumn 1 -->              
+              <div class="s-12 m-12 l-4 margin-m-bottom-30">
+                <h3 class="text-size-16">Dirección de la empresa</h3>
+                <p class="text-size-14">
+                Av. Paseo de la Reforma 222 <br>
+                OF. IOS, Cuauhtémoc, 06500 <br>
+               Ciudad de México, México
+                </p>               
+              </div>
+              <!-- Collumn 2 -->
+              <div class="s-12 m-12 l-4 margin-m-bottom-30">
+                <h3 class="text-size-16">E-mail</h3>
+                <p class="text-size-14">
+                   yesarimaquillajes@yesarimaquillajes.com  <br>
+                    yesari@maquillajes.com<br>
+<br>
+<br>
+Contáctanos, Juntos Creemos el futuro.
+               
+                </p>              
+              </div>
+              <!-- Collumn 3 -->
+              <div class="s-12 m-12 l-4 ">
+                <h3 class="text-size-16">Números Telefonicos</h3>
+                <p class="text-size-14">
+                   Tel (+52) 552472.2112 <br>
+                   Cel. (+52) 552472.2112
+
+
+
+                </p>             
+              </div>
+            </div>
+          </div>  
+        </section>
+        <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 0, 0, 0.80);">
+        
+        <!-- Bottom Footer -->
+        <section class="padding background-dark full-width">
+          <div class="text-center">
+            <p class="text-size-12">Copyright 2022, YESARI MAQUILLAJES </p>
+          </div>
+        </section>
+      </footer>
+    </div>
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="js/jquery.events.touch.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script> 
+  </body>
+</html>
